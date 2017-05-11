@@ -1,0 +1,1 @@
+okpayserver uninstall

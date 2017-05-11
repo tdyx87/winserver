@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: winserver - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\lenovo\LOCALS~1\Temp\RSP4E0.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "WIN32_LEAN_AND_MEAN" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\winserver\IniSetting.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\winserver\Lock.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\winserver\Mutex.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\winserver\ServerEntry.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\winserver\SocketClient.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\winserver\SocketServer.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\winserver\winserver.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\winserver\Log.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\lenovo\LOCALS~1\Temp\RSP4E0.tmp" 
+Creating temporary file "C:\DOCUME~1\lenovo\LOCALS~1\Temp\RSP4E1.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "WIN32_LEAN_AND_MEAN" /FR"Release/" /Fp"Release/winserver.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\winserver\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\lenovo\LOCALS~1\Temp\RSP4E1.tmp" 
+Creating temporary file "C:\DOCUME~1\lenovo\LOCALS~1\Temp\RSP4E2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/okpayserver.pdb" /machine:I386 /out:"Release/okpayserver.exe" 
+".\Release\IniSetting.obj"
+".\Release\Lock.obj"
+".\Release\Mutex.obj"
+".\Release\ServerEntry.obj"
+".\Release\SocketClient.obj"
+".\Release\SocketServer.obj"
+".\Release\StdAfx.obj"
+".\Release\winserver.obj"
+".\Release\Log.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\lenovo\LOCALS~1\Temp\RSP4E2.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+C:\Program Files\Microsoft Visual Studio\MyProjects\winserver\stdafx.h(13) : warning C4005: 'WIN32_LEAN_AND_MEAN' : macro redefinition
+        unknown(0) : see previous definition of 'WIN32_LEAN_AND_MEAN'
+Compiling...
+IniSetting.cpp
+C:\Program Files\Microsoft Visual Studio\MyProjects\winserver\stdafx.h(13) : warning C4005: 'WIN32_LEAN_AND_MEAN' : macro redefinition
+        unknown(0) : see previous definition of 'WIN32_LEAN_AND_MEAN'
+Lock.cpp
+Mutex.cpp
+ServerEntry.cpp
+SocketClient.cpp
+SocketServer.cpp
+winserver.cpp
+C:\Program Files\Microsoft Visual Studio\MyProjects\winserver\stdafx.h(13) : warning C4005: 'WIN32_LEAN_AND_MEAN' : macro redefinition
+        unknown(0) : see previous definition of 'WIN32_LEAN_AND_MEAN'
+Log.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\lenovo\LOCALS~1\Temp\RSP4E4.tmp" with contents
+[
+/nologo /o"Release/winserver.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\IniSetting.sbr"
+".\Release\Lock.sbr"
+".\Release\Mutex.sbr"
+".\Release\ServerEntry.sbr"
+".\Release\SocketClient.sbr"
+".\Release\SocketServer.sbr"
+".\Release\winserver.sbr"
+".\Release\Log.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\lenovo\LOCALS~1\Temp\RSP4E4.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+okpayserver.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
